@@ -1,0 +1,32 @@
+#h1{
+    text-align: center;
+}
+
+#p1{
+	text-align: center;
+	border: 1px solid red;	
+	padding: 12px;
+	height: 300px;
+	margin-left: 100px;
+	margin-right: 100px; 
+	font-family: 'cwTeXFangSong', serif ;
+	font-size: 30px;
+	overflow: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#outer{
+	text-align: center;
+	border: 1px solid green;
+	padding: 30px;
+	margin: 30px;
+
+
+}
+img.align-right{
+	float: right;
+	width: 240px;
+	height:240px;
+
+}
