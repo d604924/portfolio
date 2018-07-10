@@ -4,21 +4,28 @@
 		<title>Border Image</title>
 		<style type="text/css">
 			p {
-				width: 197px;
-				height: 54px;
-				border: 11px solid #ffffff;}
+				width: 600px
+				height: 250px;
+				border: 20px solid #ffffff;}
 			p.one {
-				-moz-border-image: url("images/dots.gif") 11 11 11 11 stretch;
-				-webkit-border-image: url("images/dots.gif") 11 11 11 11 stretch;
-				border-image: url("images/dots.gif") 11 11 11 11 stretch;}
+				-moz-border-image: url("./border.svg") 33 33 33 33 stretch;
+				-webkit-border-image: url("./border.svg") 33 33 33 33  stretch;
+				border-image: url("./border.svg") 33 33 33 33  stretch;
+                text-align: center;
+                font-size: 52px;
+			}
+
 			p.two {
-				-moz-border-image: url("images/dots.gif") 11 11 11 11 round;
-				-webkit-border-image: url("images/dots.gif") 11 11 11 11 round;
-				border-image: url("images/dots.gif") 11 11 11 11 round;}
+				-moz-border-image: url("./border.svg") 33 33 33 33 round;
+				-webkit-border-image: url("./border.svg") 33 33 33 33  round;
+				border-image: url("./border.svg") 33 33 33 33 round;
+                text-align: center;
+                font-size: 52px;
+			}
 		</style>
 	</head>
 	<body>
-		<p class="one"></p>
-		<p class="two"></p>
+		<p class="one">我不喜歡現任總統<br/>而我卻叫陸海空</p>
+		<p class="two">我不喜歡現任總統<br/>而我卻叫陸海空</p>
 	</body>
 </html>
