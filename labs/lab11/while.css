@@ -1,0 +1,14 @@
+div {
+	border: 1px solid black;
+	margin: 10px ;
+	float:left;
+	padding: 10px ;
+	font-family: 'cwTeXFangSong', serif ;
+	font-size: 20px ;
+}
+strong {
+	color: red ;
+}
+em { 
+    color: green ;
+ }
